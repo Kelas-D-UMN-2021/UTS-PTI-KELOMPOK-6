@@ -1,0 +1,341 @@
+.background-image-morning {
+    background-image: url(bg_morning.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.background-image-afternoon {
+    background-image: url(bg_afternoon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.background-image-evening {
+    background-image: url(bg_evening.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+#tulisantop{
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+#easy{
+  width: 80px;
+  border-radius: 5px;
+  color: rgb(6, 100, 6);
+  background-color: rgb(16, 180, 16);
+}
+
+#hard{
+  width: 80px;
+  border-radius: 5px;
+  color: rgb(68, 0, 0);
+  background-color: rgb(255, 30, 0);
+}
+
+#top img {
+    width: 60px;
+    height: 60px;
+}
+
+hr.line {
+    border: 2px solid black;
+  }
+
+#char{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#char img{
+    width: 400px;
+    height: 400px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#charcostum {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 270px;
+  margin: 2em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 180px 1fr auto;
+}
+
+.card-body,
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  position: relative;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.card-image img {
+  max-width: 130%;
+  max-height: 130%;
+  transition: max-width 0.4s, max-height 0.4s;
+}
+
+.card:hover .card-image img {
+  max-width: 200%;
+  max-height: 200%;
+}
+
+
+.card {
+  box-shadow: 0 15px 30px -10px #000;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  background: #fff;
+  padding: 20px 28px;
+}
+
+.card-body .power {
+  font-weight: bolder;
+}
+
+.card-body h2 {
+  font-size: 1.8em;
+  margin: 4px auto 12px;
+}
+
+.card-body p {
+  color: gray;
+  font-size: 1.1em;
+  line-height: 20px;
+  text-align: center;
+}
+
+#power1 {
+  color: #4891ba;
+}
+#power2{
+  color: #f6b10f;
+}
+
+.selector {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+
+.card:hover .selector {
+  opacity: 1;
+}
+
+.selector button {
+  background-color: #4891ba;
+  color: #fff;
+  outline: none;
+  border: 2px solid currentColor;
+  cursor: pointer;
+  padding: 12px 20px;
+  transform: translateY(60px);
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+  font-weight: bolder;
+  transition: opacity 0.3s;
+}
+
+.selector button:hover {
+  opacity: 0.8;
+}
+
+#selector2 {
+  background-color: #f6b10f;
+}
+
+#nulis{
+    width: 30%;
+    text-align: center;
+}
+
+#tombol{
+    width: 80px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#status{
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 300px;
+  align-content: center;
+  border:solid black;
+  border-radius: 5px;
+}
+
+#food img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+#sleep img{
+    width: 50px;
+    height: 50px;
+}
+
+#game img{
+    width: 50px;
+    height: 40px;
+}
+
+#study img{
+    width: 50px;
+    height: 50px;
+}
+
+#karakter{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#action{
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#food_action{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#sleep_action{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#game_action{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#study_action{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#press1{
+    border-radius: 5px;
+    width: 70px;
+}
+
+#press2{
+    border-radius: 5px;
+    width: 70px;
+}
+
+#press3{
+    border-radius: 5px;
+    width: 70px;
+}
+
+#press4{
+    border-radius: 5px;
+    width: 70px;
+}
+
+.endingclass{
+  margin-top: auto;
+  width: auto;
+  height: 100px;
+  color: red;
+}
+
+.endinglulusclass{
+  margin-top: auto;
+  width: auto;
+  height: 100px;
+  color: green;
+}
+
+#time{
+  /*
+  color: rgb(0, 0, 0);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  */
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+#local_clock{
+  color: rgb(0, 0, 0);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
