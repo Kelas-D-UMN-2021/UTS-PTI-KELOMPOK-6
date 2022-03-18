@@ -1,8 +1,6 @@
 # UTS-PTI-KELOMPOK-6
 
-# GRUP-6
-
-APEX GAME OF LIFE 
+# APEX GAME OF LIFE 
 
 Nama Anggota : 
 1. Cornelius Baros Kanga
